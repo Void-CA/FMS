@@ -55,5 +55,4 @@ for country in fms.keys():
     country_df.to_csv(f'data/processed_tables/FMS_{country}.csv', index=False)
 
 final_table = utils.formatting_table(processed_tables)
-print(final_table.sort_values(by="PTB", ascending=False))
 final_table.to_csv('data/FMS.csv', index=False)
