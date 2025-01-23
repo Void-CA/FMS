@@ -1,6 +1,6 @@
 import pandas as pd 
 import os
-import scripts.utils as utils
+import utils.utils as utils
 
 fms = {
     "CAR": [],
@@ -12,9 +12,11 @@ fms = {
     "PERU": []
 }
 
-tables = os.listdir('data/raw_tables/')
+path = 'data/raw_tables/'
+
+tables = os.listdir(path)
 for table in tables:
-    df = pd.read_csv('data/raw_tables/' + table)
+    df = pd.read_csv(path + table)
     df["year"] = table.split("_")[1].split(".")[0]
     df["country"] = table.split("_")[0]
     df.rename(columns={"Posición": "position"}, inplace=True)
