@@ -1,4 +1,11 @@
 import pandas as pd
+import plotly.express as px
+import streamlit as st
+
+country_colors = {
+    'ESP': '#ff0404', 'MEX': '#006847', 'ARG': '#75AADB', 'CHILE': '#0033A0',
+    'PERU': '#9c0000', 'COL': '#FCD116', 'CAR': '#66ffc5'
+}
 
 def join_groups(fms:dict, country:str)->pd.DataFrame:
     group_a =  fms[country][-2]
@@ -50,3 +57,24 @@ def formatting_table(processed_tables:list)->pd.DataFrame:
 
 def load_data():
     return pd.read_csv('data/FMS.csv')
+
+# Función para crear gráficos de barras
+def plot_bar_chart(df, x, y, title, color_col='country'):
+    return px.bar(df, x=x, y=y, color=color_col, title=title, color_discrete_map=country_colors)
+
+# Función para crear gráficos de cajas
+def plot_box_chart(df, x, y, title, color_col='country'):
+    return px.box(df, x=x, y=y, title=title, color=color_col, color_discrete_map=country_colors)
+
+# Función para mostrar campeones
+def display_champions(df):
+    champions = df[df["champion"] == 1][["MC", "country", "PTS"]].sort_values(by='PTS', ascending=False)
+    cols = st.columns(len(champions))  # Crear tantas columnas como campeones
+    for i, (index, row) in enumerate(champions.iterrows()):
+        country_color = country_colors.get(row["country"], "#FFFFFF")
+        champion_name = f"<p style='font-weight: bold; color: {country_color};'>{row['MC']}</p> from <p style='color: {country_color}; font-weight: bold;'>{row['country']}</p>"
+        points_text = f"Points: {row['PTS']}"
+        with cols[i]:
+            st.markdown(champion_name, unsafe_allow_html=True)
+            st.markdown(points_text, unsafe_allow_html=True)
+            st.markdown("---")
