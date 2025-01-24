@@ -24,7 +24,7 @@ st.write('Welcome to the Freestyle Master Series! This is a simple web app that 
 selected_year = st.selectbox('Select a year:', years)
 box_cols = st.columns(3)
 
-filtered_table = final_table[final_table["year"] == selected_year]
+filtered_table = final_table[final_table["year"] == selected_year].sort_values(by='PTB', ascending=True)
 with box_cols[0]:
     fig_0 = px.bar(filtered_table, x='PTB', y='MC', color='country', title='PTB by MC and Country')
     st.subheader("Top 5 MC's with the most PTB")
@@ -35,5 +35,5 @@ with box_cols[1]:
     
     st.plotly_chart(fig_1)
 with box_cols[2]:
-    fig_2 = px.histogram(filtered_table, x='PTB', title='PTB Distribution')
+    fig_2 = px.histogram(filtered_table, x='PTB', title='PTB Distribution', template='plotly_dark')
     st.plotly_chart(fig_2)
