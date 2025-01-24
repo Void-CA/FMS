@@ -48,3 +48,5 @@ def formatting_table(processed_tables:list)->pd.DataFrame:
     
     return final_table
 
+def load_data():
+    return pd.read_csv('data/FMS.csv')
