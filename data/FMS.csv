@@ -1,0 +1,277 @@
+position,MC,BG,BGR,BPR,BP,PTS,PTB,year,country,champion
+1,Meta,4,1,0,0,14,534.0,2023A,CAR,False
+1,Letra,4,1,0,0,14,882.5,2023B,CAR,True
+3,Aldair,3,0,1,1,10,513.5,2023A,CAR,False
+2,SNK,2,1,2,2,10,508.5,2023A,CAR,False
+2,Ritmodelia,3,0,1,1,10,844.0,2023B,CAR,False
+4,Switch,2,1,0,2,8,460.0,2023A,CAR,False
+3,Reverse,1,1,2,1,7,789.0,2023B,CAR,False
+4,Jony Beltrán,2,0,0,3,6,832.0,2023B,CAR,False
+5,Zaki,0,2,0,3,4,856.0,2023B,CAR,False
+6,Yartzi,1,0,1,3,4,789.5,2023B,CAR,False
+5,Replik,2,0,0,1,0,521.5,2023A,CAR,False
+6,Éxodo Lirical,1,0,0,0,0,362.5,2023A,CAR,False
+1,Teorema,5,2,1,1,20,3148.0,2019,CHILE,True
+2,Acertijo,4,3,0,2,18,3114.0,2019,CHILE,False
+3,Nitro,3,2,3,1,16,2944.0,2019,CHILE,False
+4,Ricto,2,4,1,2,15,3125.0,2019,CHILE,False
+5,El Menor,3,2,1,3,14,2977.0,2019,CHILE,False
+6,Tom Crowley,2,2,2,3,12,3006.0,2019,CHILE,False
+7,Pepe Grillo,2,2,2,3,12,2804.0,2019,CHILE,False
+8,Drose,1,0,7,1,10,2912.0,2019,CHILE,False
+9,Kaiser,0,3,4,2,10,2731.0,2019,CHILE,False
+10,Stigma,0,3,2,4,8,2871.0,2019,CHILE,False
+1,Nitro,3,3,3,0,18,2881.0,2020,CHILE,True
+2,Acertijo,4,2,1,2,17,3039.5,2020,CHILE,False
+3,Pepe Grillo,3,3,1,2,16,3025.5,2020,CHILE,False
+4,Jokker,3,2,3,1,16,2954.5,2020,CHILE,False
+5,Tom Crowley,2,2,3,2,13,2950.0,2020,CHILE,False
+6,Joqerr,1,4,2,2,13,2943.5,2020,CHILE,False
+7,Ricto,1,2,5,1,12,3002.5,2020,CHILE,False
+8,Teorema,0,4,4,1,12,2908.5,2020,CHILE,False
+9,El Menor,1,3,1,4,10,2750.0,2020,CHILE,False
+10,Esezeta,1,1,3,4,8,2760.0,2020,CHILE,False
+1,Nitro,9,0,2,0,29,2790.5,2022,CHILE,True
+2,Basek,5,3,1,2,22,2777.0,2022,CHILE,False
+3,Joqerr,4,3,2,2,20,2674.5,2022,CHILE,False
+4,Acertijo,3,3,4,1,19,2747.5,2022,CHILE,False
+5,Rodamiento,3,4,0,4,17,2701.0,2022,CHILE,False
+6,Teorema,3,4,0,4,17,2683.0,2022,CHILE,False
+7,Metalingüística,3,2,3,3,16,2648.0,2022,CHILE,False
+8,Anubis,3,2,2,4,15,2686.5,2022,CHILE,False
+9,Tom Crowley,2,2,2,5,12,2537.5,2022,CHILE,False
+10,JNO,2,0,5,4,11,2680.0,2022,CHILE,False
+11,Jokker,1,1,5,4,10,2621.0,2022,CHILE,False
+12,Erreka,0,4,2,5,10,2561.0,2022,CHILE,False
+1,Acertijo,4,0,0,1,12,791.5,2023A,CHILE,False
+2,Teorema,4,0,0,1,12,808.0,2023A,CHILE,False
+3,El Menor,3,0,0,2,10,836.5,2023A,CHILE,True
+2,Basek,2,1,2,0,10,785.5,2023B,CHILE,False
+1,Rodamiento,2,2,0,1,10,795.0,2023B,CHILE,False
+4,Joqerr,3,0,0,2,9,723.5,2023B,CHILE,False
+3,Klan,3,0,0,2,9,799.5,2023B,CHILE,False
+5,Sawi Elekipo,1,1,1,2,6,743.5,2023B,CHILE,False
+4,Jair Wong,1,1,0,3,5,700.5,2023A,CHILE,False
+6,Anubis,0,1,1,3,3,761.0,2023A,CHILE,False
+5,Satim,1,0,0,4,3,704.5,2023A,CHILE,False
+6,Nasho,0,0,1,4,1,723.5,2023B,CHILE,False
+1,Chuty,8,1,0,0,26,3544.0,2017,ESP,True
+2,Skone,5,1,0,3,17,3171.0,2017,ESP,False
+3,Blon,4,1,0,4,14,3200.0,2017,ESP,False
+4,BTA,4,0,2,3,14,3172.0,2017,ESP,False
+5,Errecé,3,1,2,3,13,3273.0,2017,ESP,False
+6,Zasko,4,0,0,5,12,3106.0,2017,ESP,False
+7,Arkano,3,1,1,4,12,3102.0,2017,ESP,False
+8,Hander,2,1,2,4,10,3057.0,2017,ESP,False
+9,Invert,2,1,1,5,9,2941.0,2017,ESP,False
+10,Mr. Ego,2,1,0,6,8,3040.0,2017,ESP,False
+1,Chuty,7,1,1,0,24,3546.0,2018,ESP,True
+2,Walls,5,0,2,1,18,3226.0,2018,ESP,False
+3,Skone,3,3,1,2,16,3220.0,2018,ESP,False
+4,Blon,3,2,2,2,14,3333.0,2018,ESP,False
+5,Errecé,3,1,2,3,13,2934.0,2018,ESP,False
+6,Zasko,3,1,1,4,12,2973.0,2018,ESP,False
+7,Arkano,2,3,0,4,12,2969.0,2018,ESP,False
+8,BTA,2,2,0,5,10,3030.0,2018,ESP,False
+9,Force,1,1,3,4,8,3030.0,2018,ESP,False
+10,Hander,1,1,3,4,8,3023.0,2018,ESP,False
+1,Chuty,8,0,1,0,25,3523.0,2019,ESP,True
+2,Skone,5,3,0,1,21,3215.0,2019,ESP,False
+3,Bnet,6,0,1,2,19,3233.0,2019,ESP,False
+4,Blon,4,1,2,2,16,3037.0,2019,ESP,False
+5,Errecé,3,1,1,4,12,2929.0,2019,ESP,False
+6,Walls,3,0,2,4,11,3122.0,2019,ESP,False
+7,Mr. Ego,1,2,3,3,10,2982.0,2019,ESP,False
+8,Zasko,1,2,1,5,8,2940.0,2019,ESP,False
+9,Force,1,2,0,6,7,2682.0,2019,ESP,False
+10,BTA,1,1,1,6,6,2858.0,2019,ESP,False
+1,Bnet,6,2,0,1,22,2791.5,2020,ESP,True
+2,Gazir,6,1,0,2,20,3179.0,2020,ESP,False
+3,Sweetpain,5,1,3,0,20,2757.0,2020,ESP,False
+4,Mnak,5,1,1,2,18,2589.0,2020,ESP,False
+5,Zasko,3,3,0,3,15,2566.5,2020,ESP,False
+6,Tirpa,3,1,1,4,12,2539.0,2020,ESP,False
+7,Blon,3,0,2,4,11,2733.0,2020,ESP,False
+8,Mr. Ego,3,0,1,5,10,2346.5,2020,ESP,False
+9,Errecé,1,1,2,5,7,2440.0,2020,ESP,False
+10,Khan,0,0,0,9,0,1986.5,2020,ESP,False
+1,Gazir,9,1,1,0,30,3073.5,2022,ESP,True
+2,Chuty,8,2,1,0,29,3038.5,2022,ESP,False
+3,Mnak,6,1,4,0,24,2751.0,2022,ESP,False
+4,Skone,5,2,0,4,19,2730.5,2022,ESP,False
+5,Blon,5,1,0,5,17,2660.0,2022,ESP,False
+6,Zasko,4,2,1,4,17,2559.5,2022,ESP,False
+7,Sweet Pain,4,1,3,3,16,2638.0,2022,ESP,False
+8,Elekipo,2,3,1,5,13,2490.0,2022,ESP,False
+9,Tirpa,2,1,3,5,11,2469.5,2022,ESP,False
+10,Sara Socas,2,1,2,6,10,2405.5,2022,ESP,False
+11,Mr. Ego,1,3,0,7,9,2458.0,2022,ESP,False
+12,Hander,0,0,2,9,2,2357.5,2022,ESP,False
+1,Chuty,5,0,0,0,15,1000.0,2023B,ESP,False
+1,Gazir,4,0,1,0,13,942.0,2023A,ESP,True
+2,Mecha,3,2,0,1,11,894.5,2023A,ESP,False
+3,Mnak,3,0,0,2,9,839.5,2023A,ESP,False
+4,Zasko,2,1,1,1,9,831.5,2023A,ESP,False
+2,Mounts,2,1,0,2,8,779.5,2023B,ESP,False
+3,Sweet Pain,1,2,1,1,8,854.5,2023B,ESP,False
+4,Skone,2,0,1,2,7,836.0,2023B,ESP,False
+5,Blon,2,0,1,2,7,838.0,2023B,ESP,False
+5,Tirpa,1,0,0,4,3,790.5,2023A,ESP,False
+6,Jesús Lc,0,0,0,5,0,743.5,2023A,ESP,False
+6,Le33,0,0,0,5,0,760.0,2023B,ESP,False
+1,Wos,8,0,1,0,25,2868.0,2018,ARG,True
+2,Papo,7,0,0,2,21,2796.0,2018,ARG,False
+3,MKS,3,3,0,3,15,2552.0,2018,ARG,False
+4,Replik,3,1,3,2,14,2634.0,2018,ARG,False
+5,Dtoke,3,1,3,2,14,2540.0,2018,ARG,False
+6,Dani,1,3,1,4,10,2586.0,2018,ARG,False
+7,Stuart,2,2,0,5,10,2515.0,2018,ARG,False
+8,Klan,2,1,1,5,9,2543.0,2018,ARG,False
+9,Cacha,2,1,1,5,9,2541.0,2018,ARG,False
+10,Trueno,1,1,3,4,8,2642.0,2018,ARG,False
+1,Trueno,5,0,3,1,18,3117.0,2019,ARG,True
+2,MKS,4,2,2,1,18,2911.0,2019,ARG,False
+3,Papo,4,1,3,1,17,3107.0,2019,ARG,False
+4,Stuart,3,3,1,2,16,2934.0,2019,ARG,False
+5,Cacha,1,5,3,0,16,2898.0,2019,ARG,False
+6,Dtoke,2,3,2,1,14,2867.0,2019,ARG,False
+7,Klan,2,3,1,3,13,2828.0,2019,ARG,False
+8,Nacho,2,2,1,4,11,2813.0,2019,ARG,False
+9,Sub,1,2,1,5,8,2760.0,2019,ARG,False
+10,Replik,0,0,4,5,4,2611.0,2019,ARG,False
+1,Stuart,3,5,1,0,20,2980.5,2020,ARG,True
+2,Papo,5,1,3,0,20,2969.5,2020,ARG,False
+3,Mecha,4,2,2,1,18,2993.0,2020,ARG,False
+4,Klan,1,6,1,1,16,2811.5,2020,ARG,False
+5,Nacho,3,2,2,2,15,2891.0,2020,ARG,False
+6,Wolf,1,3,3,2,12,2702.0,2020,ARG,False
+7,Dtoke,0,3,5,1,11,2670.0,2020,ARG,False
+8,MKS,2,1,2,4,10,2751.0,2020,ARG,False
+9,Cacha,0,2,4,3,8,2739.5,2020,ARG,False
+10,Sub,0,1,3,5,5,2684.5,2020,ARG,False
+1,Papo,7,2,2,0,27,2879.0,2022,ARG,True
+2,Mecha,7,2,1,1,26,2936.0,2022,ARG,False
+3,Larrix,6,1,4,0,24,2952.0,2022,ARG,False
+4,Klan,5,2,2,2,21,2742.5,2022,ARG,False
+5,Stuart,4,3,2,2,20,2793.5,2022,ARG,False
+6,Naista,3,1,4,3,15,2724.5,2022,ARG,False
+7,MP,3,2,1,5,14,2685.5,2022,ARG,False
+8,Nacho,1,3,3,4,12,2683.5,2022,ARG,False
+9,Zaina,2,3,0,6,12,2649.5,2022,ARG,False
+10,Katra,1,2,4,4,11,2684.0,2022,ARG,False
+11,Wolf,2,2,1,6,11,2620.0,2022,ARG,False
+12,Tata,0,2,1,8,5,2419.0,2022,ARG,False
+1,Larrix,5,0,0,0,15,964.0,2023B,ARG,True
+1,Rapder,3,1,0,1,11,911.5,2023A,ARG,False
+2,DAC,3,1,0,1,11,847.0,2023A,ARG,False
+3,Dybbuk,3,1,0,2,8,826.0,2023A,ARG,False
+4,CTZ,1,1,3,0,8,927.0,2023A,ARG,False
+5,G Sony,2,0,1,2,7,895.0,2023A,ARG,False
+2,Mito,2,0,1,2,7,872.0,2023B,ARG,False
+3,MP,2,0,1,2,7,872.0,2023B,ARG,False
+5,Jesse Pungaz,2,0,0,3,6,892.0,2023B,ARG,False
+4,Naista,2,0,0,3,6,837.0,2023B,ARG,False
+6,Jaff,0,2,0,3,4,882.0,2023B,ARG,False
+6,Dtoke,1,2,0,0,0,517.5,2023A,ARG,False
+1,Aczino,9,0,0,0,27,3374.0,2019,MEX,True
+2,RC,5,1,2,1,18,2929.0,2019,MEX,False
+3,Jony Beltrán,5,0,3,1,16,2920.0,2019,MEX,False
+4,Zticma,3,3,3,0,15,2551.0,2019,MEX,False
+5,Rapder,3,1,2,3,14,2705.0,2019,MEX,False
+6,Yoiker,2,3,2,2,14,2685.0,2019,MEX,False
+7,Potencia,3,2,4,0,13,2401.0,2019,MEX,False
+8,Lobo Estepario,2,2,3,2,12,2629.0,2019,MEX,False
+9,Jack Adrenalina,1,0,7,1,4,2350.0,2019,MEX,False
+10,Mcklopedia,0,0,7,2,2,2375.0,2019,MEX,False
+1,Rapder,6,2,0,1,23,2534.5,2020,MEX,True
+2,RC,5,0,0,4,19,2590.0,2020,MEX,False
+3,Skiper,3,3,1,2,17,2563.5,2020,MEX,False
+4,Lobo Estepario,5,1,3,0,17,2400.5,2020,MEX,False
+5,Garza,4,1,2,2,16,2366.0,2020,MEX,False
+6,Yoiker,3,2,2,2,15,2429.0,2020,MEX,False
+7,Zticma,2,1,5,1,9,2288.0,2020,MEX,False
+8,Jony Beltrán,1,2,5,1,8,2331.0,2020,MEX,False
+9,Potencia,2,1,6,0,8,2209.0,2020,MEX,False
+10,B-One,0,1,7,1,3,2149.5,2020,MEX,False
+1,Aczino,9,1,1,0,30,3057.0,2022,MEX,True
+2,Lobo Estepario,6,4,1,0,27,3016.0,2022,MEX,False
+3,Skiper,5,2,4,0,23,2865.5,2022,MEX,False
+4,Rapder,4,3,2,2,20,2768.0,2022,MEX,False
+5,RC,3,3,2,3,17,2870.5,2022,MEX,False
+6,Yoiker,1,5,2,3,15,2710.0,2022,MEX,False
+7,Dante,1,3,4,3,13,2783.5,2022,MEX,False
+8,Zticma,2,3,1,5,13,2760.0,2022,MEX,False
+9,Garza,0,3,6,2,12,2788.5,2022,MEX,False
+10,Lancer Lirical,1,2,4,4,11,2681.0,2022,MEX,False
+11,Jony Beltrán,1,2,3,5,10,2754.0,2022,MEX,False
+12,Dominic,0,2,3,6,7,2717.5,2022,MEX,False
+1,Lobo Estepario,5,0,0,0,15,929.5,2023B,MEX,True
+2,Dante,3,0,0,2,12,868.5,2023B,MEX,False
+1,Chang,2,2,1,0,11,857.0,2023A,MEX,False
+2,Lancer Lirical,3,0,1,2,10,855.5,2023A,MEX,False
+3,Ari Carrilo,2,2,0,1,10,837.5,2023A,MEX,False
+4,Zticma,2,0,2,1,8,866.5,2023A,MEX,False
+5,Majestic,2,0,0,3,6,819.0,2023A,MEX,False
+3,RC,3,0,0,2,6,847.5,2023B,MEX,False
+5,Dominic,2,0,0,3,6,814.0,2023B,MEX,False
+4,Kaiser,1,1,0,3,6,837.0,2023B,MEX,False
+6,Skiper,2,1,0,0,0,687.0,2023A,MEX,False
+6,Lobo Lopez,0,0,1,2,0,325.5,2023B,MEX,False
+1,Valles-T,6,4,1,0,27,2660.5,2022,COL,True
+2,Chang,7,3,0,1,27,2616.0,2022,COL,False
+3,Lokillo,4,3,3,1,21,2549.5,2022,COL,False
+4,Filósofo,4,1,4,2,18,2578.5,2022,COL,False
+5,Airon,4,1,3,3,17,2459.5,2022,COL,False
+6,Letra,2,3,5,1,17,2450.5,2022,COL,False
+7,RBN,2,5,1,3,17,2383.0,2022,COL,False
+8,Carpediem,3,1,3,4,14,2478.5,2022,COL,False
+9,Elevn,1,3,2,5,11,2473.5,2022,COL,False
+10,Big Killa,3,0,2,6,11,2362.0,2022,COL,False
+11,Ñko,1,2,3,5,10,2437.0,2022,COL,False
+12,Gavyria,1,2,1,7,8,2364.0,2022,COL,False
+1,Valles - T,5,0,0,0,15,914.5,2023A,COL,True
+1,Valles - T,5,0,0,0,15,914.5,2023B,COL,True
+2,Marithea,4,0,0,1,12,824.0,2023B,COL,False
+2,Marithea,4,0,0,1,12,824.0,2023A,COL,False
+3,RBN,2,1,0,2,8,830.5,2023B,COL,False
+3,RBN,2,1,0,2,8,830.5,2023A,COL,False
+4,Coloso,2,0,1,2,7,706.5,2023A,COL,False
+4,Coloso,2,0,1,2,7,706.5,2023B,COL,False
+5,Stuart,1,1,1,0,0,719.5,2023A,COL,False
+6,Carpediem,0,0,2,2,0,636.5,2023A,COL,False
+5,Stuart,1,1,1,0,0,719.5,2023B,COL,False
+6,Carpediem,0,0,2,2,0,636.5,2023B,COL,False
+1,Jaze,4,4,0,1,20,2690.0,2020,PERU,True
+2,Stick,4,2,2,1,18,2671.0,2020,PERU,False
+3,Jota,2,3,2,2,14,2424.0,2020,PERU,False
+4,Strike,2,3,2,2,14,2370.0,2020,PERU,False
+5,Skill,2,2,3,2,13,2637.0,2020,PERU,False
+6,Nekroos,2,3,1,3,13,2527.5,2020,PERU,False
+7,New Era,2,2,3,2,13,2419.5,2020,PERU,False
+8,Ramset,0,4,4,1,12,2434.5,2020,PERU,False
+9,Choque,3,0,2,4,11,2287.5,2020,PERU,False
+10,Litzen,1,0,4,4,7,2385.0,2020,PERU,False
+1,Jaze,5,1,5,0,22,3134.5,2022,PERU,True
+2,Nekroos,4,4,2,1,22,3006.0,2022,PERU,False
+3,Stick,3,5,2,1,21,2987.0,2022,PERU,False
+4,Black Code,3,3,4,1,19,2989.0,2022,PERU,False
+5,Jota,3,5,0,3,19,2851.0,2022,PERU,False
+6,Skill,1,5,3,2,16,2933.5,2022,PERU,False
+7,Kian,1,5,2,3,15,3073.0,2022,PERU,False
+8,Vijay Kesh,2,2,4,2,14,2711.0,2022,PERU,False
+9,Diego MC,2,1,5,3,13,2882.5,2022,PERU,False
+10,Jair Wong,2,1,5,3,13,2868.5,2022,PERU,False
+11,Ghost,2,2,3,4,13,2793.0,2022,PERU,False
+12,Strike,1,2,1,6,8,2572.0,2022,PERU,False
+1,Nekroos,3,2,0,0,13,820.0,2023A,PERU,False
+1,Stick,3,2,0,0,13,754.0,2023B,PERU,False
+2,Filósofo,2,2,1,0,11,781.0,2023B,PERU,False
+2,Black Code,3,0,0,2,9,794.5,2023A,PERU,False
+3,Skill,2,0,2,1,8,770.0,2023B,PERU,True
+3,Cacha,2,1,0,2,8,796.5,2023A,PERU,False
+4,Kian,1,0,2,2,7,743.5,2023A,PERU,False
+4,Jota,1,1,2,1,7,735.0,2023B,PERU,False
+5,Racso,2,0,1,2,5,749.0,2023A,PERU,False
+5,Piero Pistas,0,1,2,2,4,688.5,2023B,PERU,False
+6,Litzen,1,0,0,4,3,693.5,2023A,PERU,False
+6,Vijay Kesh,0,1,0,4,2,719.0,2023B,PERU,False
