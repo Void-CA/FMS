@@ -6,7 +6,7 @@ import plotly.express as px
 st.markdown(
     """
     <style>
-        .block-container { max-width: 1300px; }
+        .block-container { max-width: 1800px; }
     </style>
     """, unsafe_allow_html=True
 )
