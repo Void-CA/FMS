@@ -1,0 +1,17 @@
+,Acertijo,Anubis,Basek,Erreka,JNO,Jokker,Joqerr,"Meta
+lingüística",Nitro,Rodamiento,Teorema,"Tom
+Crowley"
+Acertijo,X,DR,VR,DR,VR,V,V,VR,D,DR,DR,V
+Anubis,VR,X,D,VR,V,DR,DR,D,D,V,D,V
+Basek,DR,V,X,VR,V,VR,D,V,VR,D,V,V
+Erreka,VR,DR,DR,X,VR,VR,D,D,D,D,D,VR
+JNO,DR,D,D,DR,X,V,DR,DR,D,V,DR,D
+Jokker,D,VR,DR,DR,D,X,D,V,D,DR,DR,DR
+Joqerr,D,VR,V,V,VR,V,X,DR,D,DR,V,VR
+"Meta
+lingüística",DR,V,D,V,VR,D,VR,X,D,V,DR,DR
+Nitro,V,V,DR,V,V,V,V,V,X,DR,V,V
+Rodamiento,VR,D,V,V,D,VR,VR,D,VR,X,D,V
+Teorema,VR,V,D,V,VR,VR,D,VR,D,V,X,D
+"Tom
+Crowley",D,D,D,DR,V,VR,DR,VR,D,D,V,X

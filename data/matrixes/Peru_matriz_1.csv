@@ -1,0 +1,11 @@
+,Choque,Jaze,Jota,Litzen,Nekroos,New Era,Ramset,Skill,Stick,Strike
+Choque,X,DR,V,V,D,V,DR,D,D,D
+Jaze,VR,X,D,V,V,VR,V,VR,VR,V
+Jota,D,V,X,D,V,VR,VR,VR,DR,DR
+Litzen,D,D,V,X,DR,DR,DR,D,D,DR
+Nekroos,V,D,D,VR,X,V,VR,DR,D,VR
+New Era,D,DR,DR,VR,D,X,VR,V,V,DR
+Ramset,VR,D,DR,VR,DR,DR,X,DR,VR,VR
+Skill,V,DR,DR,V,VR,D,VR,X,DR,D
+Stick,V,DR,VR,V,V,D,DR,VR,X,V
+Strike,V,D,VR,VR,DR,VR,DR,V,D,X

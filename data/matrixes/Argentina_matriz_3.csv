@@ -1,0 +1,11 @@
+,Cacha,Dtoke,Klan,Mecha,MKS,Nacho,Papo,Stuart,Sub,Wolf
+Cacha,X,DR,DR,DR,VR,D,D,D,VR,DR
+Dtoke,VR,X,DR,DR,D,DR,VR,DR,DR,VR
+Klan,VR,VR,X,D,DR,VR,VR,VR,V,VR
+Mecha,VR,VR,V,X,V,DR,DR,D,V,V
+MKS,DR,V,VR,D,X,D,D,DR,V,D
+Nacho,V,VR,DR,VR,V,X,D,D,V,DR
+Papo,V,DR,DR,VR,V,V,X,DR,V,V
+Stuart,V,VR,DR,V,VR,V,VR,X,VR,VR
+Sub,DR,VR,D,D,D,D,D,DR,X,DR
+Wolf,VR,DR,DR,D,V,VR,D,DR,VR,X

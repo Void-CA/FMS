@@ -1,0 +1,13 @@
+,Acertijo,Anubis,Basek,Elekipo,El Menor,Jair Wong,Joqerr,Klan,Nasho,Rodamiento,Satim,Teorema
+Acertijo,X,,,,D,,,,,,V,V
+Anubis,,X,,,VR,DR,,,,,,D
+Basek,,,X,DR,,,V,,VR,,,
+Elekipo,,,VR,X,,,D,,,DR,,
+El Menor,V,DR,,,X,V,,,,,,
+Jair Wong,,VR,,,D,X,,,,,V,
+Joqerr,,,D,V,,,X,D,,,,
+Klan,,,,,,,V,X,,,,
+Nasho,,,DR,,,,,,X,D,,
+Rodamiento,,,,VR,,,,,V,X,,
+Satim,D,,,,,D,,,,,X,D
+Teorema,D,V,,,,,,,,,V,X

@@ -1,0 +1,13 @@
+,Katra,Klan,Larrix,Mecha,MP,Nacho,Naista,Papo,Stuart,Tata,Wolf,Zaina
+Katra,X,DR,D,D,D,DR,VR,D,VR,DR,DR,V
+Klan,VR,X,VR,D,V,V,V,DR,DR,V,V,D
+Larrix,V,DR,X,DR,V,V,DR,VR,V,V,V,DR
+Mecha,V,V,VR,X,V,V,VR,D,DR,V,V,V
+MP,V,D,D,D,X,VR,VR,D,D,V,V,DR
+Nacho,VR,D,D,D,DR,X,D,VR,VR,DR,DR,V
+Naista,DR,D,VR,DR,DR,V,X,D,DR,V,V,D
+Papo,V,VR,DR,V,V,DR,V,X,V,V,VR,V
+Stuart,DR,VR,D,VR,V,DR,VR,D,X,V,V,V
+Tata,VR,D,D,D,D,VR,D,D,D,X,D,DR
+Wolf,VR,D,D,D,D,VR,D,DR,D,V,X,V
+Zaina,D,V,VR,D,VR,D,V,D,D,VR,D,X

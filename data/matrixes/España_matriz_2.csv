@@ -1,0 +1,11 @@
+,Chuty,Walls,Skone,Blon,Errecé,Zasko,Arkano,BTA,Force,Hander
+Chuty,X,VR,V,DR,V,V,V,V,V,V
+Walls,DR,X,DR,V,D,V,V,DR,V,V
+Skone,D,VR,X,V,VR,D,V,DR,V,VR
+Blon,VR,D,D,X,VR,V,DR,V,D,V
+Errecé,D,V,DR,DR,X,D,V,V,VR,D
+Zasko,D,D,V,D,V,X,D,V,VR,DR
+Arkano,D,D,D,VR,D,V,X,V,VR,VR
+BTA,D,VR,VR,D,D,D,D,X,V,V
+Force,D,D,D,V,DR,DR,DR,D,X,VR
+Hander,D,D,DR,D,V,VR,DR,D,DR,X

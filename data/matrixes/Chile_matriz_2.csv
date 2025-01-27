@@ -1,0 +1,11 @@
+,Acertijo,El Menor,Esezeta,Jokker,Joqerr,Nitro,Pepe Grillo,Ricto,Teorema,Tom Crowley
+Acertijo,X,V,V,V,D,DR,V,D,VR,VR
+El Menor,D,X,D,DR,VR,D,D,V,VR,VR
+Esezeta,D,V,X,D,DR,VR,D,DR,DR,D
+Jokker,D,VR,V,X,V,DR,DR,VR,V,DR
+Joqerr,V,DR,VR,D,X,VR,VR,VR,DR,D
+Nitro,VR,V,DR,VR,DR,X,V,VR,DR,V
+Pepe Grillo,D,V,V,VR,DR,D,X,VR,VR,V
+Ricto,V,D,VR,DR,DR,DR,DR,X,VR,DR
+Teorema,DR,DR,VR,D,VR,VR,DR,DR,X,VR
+Tom Crowley,DR,DR,V,VR,V,D,D,VR,DR,X
