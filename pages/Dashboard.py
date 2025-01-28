@@ -1,17 +1,11 @@
 import streamlit as st
-from scripts.utils import load_data, plot_bar_chart, plot_box_chart, display_champions
+from scripts.utils import load_data, plot_bar_chart, plot_box_chart, display_champions, configure_page
 import plotly.express as px  
 
-# Usar CSS para modificar el tamaño del contenedor del gráfico
-st.markdown(
-    """
-    <style>
-        .block-container { max-width: 1800px; }
-    </style>
-    """, unsafe_allow_html=True
-)
+configure_page()
 
-final_table = load_data()
+final_table = load_data().query("year != '2023A' or country != 'COL'")
+final_table["year"] = final_table["year"].replace({"2023A": "2023", "2023B": "2023"})
 years = sorted(final_table["year"].unique())
 
 # Título y bienvenida
@@ -37,7 +31,8 @@ with box_cols[1]:
     st.subheader("Top Countries with the most PTB")
     top_5 = filtered_table.groupby('country')['PTB'].sum().sort_values(ascending=False).head(5)
     for country, ptb in top_5.items():
-        st.latex(f'\t{country}: {ptb}')
+        i = top_5.index.get_loc(country) + 1
+        st.latex(f'\t{i}.\quad {country}: {ptb}')
 
 # Campeones del año
 with box_cols[2]:

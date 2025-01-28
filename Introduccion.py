@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Título principal
-st.title("Explora la Freestyle Master Series (FMS) como nunca antes")
+st.title("Explora los datos de la Freestyle Master Series (FMS)")
 
 # Introducción
 st.markdown(""" 

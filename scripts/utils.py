@@ -78,3 +78,13 @@ def display_champions(df):
             st.markdown(champion_name, unsafe_allow_html=True)
             st.markdown(points_text, unsafe_allow_html=True)
             st.markdown("---")
+
+def configure_page():
+    # Usar CSS para modificar el tamaño del contenedor del gráfico
+    st.markdown(
+        """
+        <style>
+            .block-container { max-width: 1800px; }
+        </style>
+        """, unsafe_allow_html=True
+    )
