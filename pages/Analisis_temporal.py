@@ -22,7 +22,7 @@ def comparing_means():
             height=500
         )
     )
-    st.write("Nota: El año 2023 muestra una disminución aparente debido a la división en grupos A y B, lo que reduce las batallas a la mitad, pero los puntajes han sido estables en general.")
+    st.write("Nota: El año 2023 muestra una disminución aparente debido a la división en grupos A y B, lo que reduce las batallas a la mitad, en general los puntajes han disminuido ligeramente a medida que pasan los años.")
 
 
 def ptb_development():
@@ -30,6 +30,7 @@ def ptb_development():
     st.write("A continuación, analizamos cómo ha cambiado el desempeño de los MCs a lo largo de los años.")
 
     fms = load_data("Scaled")
+    cols = st.columns(2)
     filtered_mcs = st.multiselect("Selecciona MCs para comparar", fms["MC"].unique(), default=["Aczino", "Chuty", "Teorema", "Jaze"])
     important_mcs = fms[fms["MC"].isin(filtered_mcs)]
 
