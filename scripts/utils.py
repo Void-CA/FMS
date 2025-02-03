@@ -55,8 +55,41 @@ def formatting_table(processed_tables:list)->pd.DataFrame:
     
     return final_table
 
-def load_data():
-    return pd.read_csv('data/FMS.csv')
+# Escalar manualmente por año
+def scale_group(group, method="standard"):
+    # Crear una copia del grupo para evitar modificar el original
+    scaled_group = group.copy()
+    
+    # Seleccionar solo las columnas numéricas
+    numeric_cols = ['PTB', 'BG', 'PTS']
+    
+    for col in numeric_cols:
+        if method == "standard":
+            # Escalado estándar: (x - mean) / std
+            mean = group[col].mean()
+            std = group[col].std()
+            scaled_group[f"{col}_scaled"] = (group[col] - mean) / std
+        elif method == "minmax":
+            # Escalado Min-Max: (x - min) / (max - min)
+            min_val = group[col].min()
+            max_val = group[col].max()
+            scaled_group[f"{col}_scaled"] = (group[col] - min_val) / (max_val - min_val)
+    return scaled_group
+
+
+def load_data(data:str)->pd.DataFrame:
+    if data == "FMS":
+        return pd.read_csv('data/FMS.csv')
+    elif data == "Scaled":
+
+        fms = pd.read_csv('data/FMS.csv')
+        fms["year"] = fms["year"].replace({"2023A": "2023", "2023B": "2023"})
+
+        # Aplicar el escalado a cada grupo
+        fms_scaled = fms.groupby('year', group_keys=False).apply(scale_group, method="standard")
+
+        return fms_scaled
+
 
 # Función para crear gráficos de barras
 def plot_bar_chart(df, x, y, title, color_col='country'):
