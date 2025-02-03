@@ -4,7 +4,7 @@ import plotly.express as px
 
 configure_page()
 
-final_table = load_data().query("year != '2023A' or country != 'COL'")
+final_table = load_data("FMS").query("year != '2023A' or country != 'COL'")
 final_table["year"] = final_table["year"].replace({"2023A": "2023", "2023B": "2023"})
 years = sorted(final_table["year"].unique())
 

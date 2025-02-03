@@ -77,7 +77,7 @@ def scale_group(group, method="standard"):
     return scaled_group
 
 
-def load_data(data:str)->pd.DataFrame:
+def load_data(data:str = "FMS")->pd.DataFrame:
     if data == "FMS":
         return pd.read_csv('data/FMS.csv')
     elif data == "Scaled":
