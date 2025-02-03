@@ -32,7 +32,7 @@ with box_cols[1]:
     top_5 = filtered_table.groupby('country')['PTB'].sum().sort_values(ascending=False).head(5)
     for country, ptb in top_5.items():
         i = top_5.index.get_loc(country) + 1
-        st.latex(f'\t{i}.\quad {country}: {ptb}')
+        st.latex(f'\t{i}.\\quad {country}: {ptb}')
 
 # Campeones del año
 with box_cols[2]:

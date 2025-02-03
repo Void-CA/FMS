@@ -55,6 +55,10 @@ def formatting_table(processed_tables:list)->pd.DataFrame:
     
     return final_table
 
+def correct_mcs_names(final_table:pd.DataFrame)->pd.DataFrame:
+    # Corregir nombres de MCs
+    final_table["MC"] = final_table["MC"].replace({"Valles-T": "Valles - T", "Valles T": "Valles - T", "Valles": "Valles - T"})
+    return final_table
 # Escalar manualmente por año
 def scale_group(group, method="standard"):
     # Crear una copia del grupo para evitar modificar el original

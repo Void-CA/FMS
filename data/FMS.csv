@@ -217,7 +217,7 @@ position,MC,BG,BGR,BPR,BP,PTS,PTB,year,country,champion
 4,Kaiser,1,1,0,3,6,837.0,2023B,MEX,False
 6,Skiper,2,1,0,0,0,687.0,2023A,MEX,False
 6,Lobo Lopez,0,0,1,2,0,325.5,2023B,MEX,False
-1,Valles-T,6,4,1,0,27,2660.5,2022,COL,True
+1,Valles - T,6,4,1,0,27,2660.5,2022,COL,True
 2,Chang,7,3,0,1,27,2616.0,2022,COL,False
 3,Lokillo,4,3,3,1,21,2549.5,2022,COL,False
 4,Filósofo,4,1,4,2,18,2578.5,2022,COL,False
@@ -230,17 +230,16 @@ position,MC,BG,BGR,BPR,BP,PTS,PTB,year,country,champion
 11,Ñko,1,2,3,5,10,2437.0,2022,COL,False
 12,Gavyria,1,2,1,7,8,2364.0,2022,COL,False
 1,Valles - T,5,0,0,0,15,914.5,2023A,COL,True
-1,Valles - T,5,0,0,0,15,914.5,2023B,COL,True
-2,Marithea,4,0,0,1,12,824.0,2023B,COL,False
 2,Marithea,4,0,0,1,12,824.0,2023A,COL,False
-3,RBN,2,1,0,2,8,830.5,2023B,COL,False
+1,Nitro,4,0,0,0,12,701.0,2023B,COL,False
 3,RBN,2,1,0,2,8,830.5,2023A,COL,False
 4,Coloso,2,0,1,2,7,706.5,2023A,COL,False
-4,Coloso,2,0,1,2,7,706.5,2023B,COL,False
-5,Stuart,1,1,1,0,0,719.5,2023A,COL,False
+3,Puppy,2,0,0,1,6,496.0,2023B,COL,False
+2,Ken Zingle,2,0,0,2,6,654.5,2023B,COL,False
+4,Diego MC,1,1,0,1,6,488.5,2023B,COL,False
+5,Airon,0,0,1,2,3,480.0,2023B,COL,False
 6,Carpediem,0,0,2,2,0,636.5,2023A,COL,False
-5,Stuart,1,1,1,0,0,719.5,2023B,COL,False
-6,Carpediem,0,0,2,2,0,636.5,2023B,COL,False
+5,Stuart,1,1,1,0,0,719.5,2023A,COL,False
 1,Jaze,4,4,0,1,20,2690.0,2020,PERU,True
 2,Stick,4,2,2,1,18,2671.0,2020,PERU,False
 3,Jota,2,3,2,2,14,2424.0,2020,PERU,False
