@@ -1,6 +1,8 @@
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+import os
+import re
 
 country_colors = {
     'ESP': '#ff0404', 'MEX': '#006847', 'ARG': '#75AADB', 'CHILE': '#0033A0',
@@ -126,7 +128,29 @@ def configure_page():
         """, unsafe_allow_html=True
     )
 
-def most_common(data:list)->str:
-    for i in data:
-        if data.count(i) > 1:
-            return i
+
+def dict_matrixes():
+    path = "../data/matrixes"
+    files = os.listdir(path)
+
+    def extraer_pais_numero(nombre_archivo):
+        # Expresión regular para extraer país y número
+        patron = r"^([a-zA-ZñÑ]+)_matriz_(\d+)\.csv$"
+        
+        # Buscar coincidencias en el nombre del archivo
+        coincidencia = re.match(patron, nombre_archivo)
+        
+        # Si hay una coincidencia, extraemos los valores
+        if coincidencia:
+            pais = coincidencia.group(1)
+            numero = int(coincidencia.group(2))  # Convertimos el número a entero
+            return pais, numero
+        else:
+            return None  # Si no hay coincidencia, retornamos None
+
+    matrixes = {}
+    for f in files:
+        pais, numero = extraer_pais_numero(f)
+        matrixes[pais] = {} if pais not in matrixes else matrixes[pais]
+        matrixes[pais][numero] = pd.read_csv(os.path.join(path, f))
+    return matrixes
