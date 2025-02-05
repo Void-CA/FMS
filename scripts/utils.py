@@ -125,3 +125,8 @@ def configure_page():
         </style>
         """, unsafe_allow_html=True
     )
+
+def most_common(data:list)->str:
+    for i in data:
+        if data.count(i) > 1:
+            return i

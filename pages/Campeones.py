@@ -2,13 +2,20 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 import scripts.utils as utils  
+import pandas as pd
+import numpy as np
+import scipy.stats as stats
+
+utils.configure_page()
 
 def show_champions():
-    fms = utils.load_data("FMS")
+    fms = utils.load_data("FMS").sort_values(["year", "country"])
+    fms = fms[fms["champion"] == 1]
 
     # Mostrar los campeones
-    n_championships = fms.groupby("MC").agg({"champion": "sum", "country": "first"}).query("champion > 0")
+    n_championships = fms.groupby("MC").agg({"champion": "sum", "country": "first"})
     n_championships = n_championships.rename(columns={"champion": "championships"})
+
     # Treemap
     fig = px.treemap(n_championships, path=["country", n_championships.index], 
                      values="championships", title="Número de Campeonatos Ganados",
@@ -38,8 +45,14 @@ def show_champions():
     st.plotly_chart(fig)
 
 def compare_champions():
-    cols = st.columns(2)
-    fms = utils.load_data("Scaled")
+    country = st.selectbox("País", ["Todos"] + list(utils.country_colors.keys()))
+    
+    if country != "Todos":
+        fms = utils.load_data("Scaled")
+        fms = fms[fms["country"] == country]
+    else:
+        fms = utils.load_data("Scaled")
+
     fms["year"] = fms["year"].replace({"2023A": "2023", "2023B": "2023"})
     fms = fms.sort_values(["year", "PTS_scaled"], ascending=False)
 
@@ -63,6 +76,39 @@ def compare_champions():
     # Mostrar el gráfico
     st.plotly_chart(fig)
 
+def proportion_champion_mvp():
+    fms = utils.load_data("Scaled")
+    fms["year"] = fms["year"].replace({"2023A": "2023", "2023B": "2023"})
+
+    max_ptb = fms.groupby(["year", "country"]).agg({"PTB": "max"}).reset_index()
+    for i, row in fms.iterrows():
+        if row["PTB"] == max_ptb[(max_ptb["year"] == row["year"]) & (max_ptb["country"] == row["country"])]["PTB"].values[0]:
+            fms.loc[i, "MVP"] = 1
+        else:
+            fms.loc[i, "MVP"] = 0
+    
+
+    champions = fms[fms["champion"] == 1]
+    mvps = fms[fms["MVP"] == 1]
+
+    st.subheader("Metricas claves")
+    
+    cols = st.columns(3)
+    with cols[0]:
+        st.metric("Número de campeones y MVPs", champions.shape[0])
+        st.metric("Proporción de campeones que fueron MVPs", str(champions["MVP"].mean() * 100) + "%")
+        st.metric("Correlacion entre PTS y PTB", round(stats.pearsonr(fms["PTS"], fms["PTB"])[0], 2))
+    with cols[1]:
+        st.metric("PTBs promedio de los campeones", champions["PTB"].mean())
+        st.metric("PTBs promedio de los MVPs", mvps["PTB"].mean())
+        st.metric("Diferencia de PTBs promedio", round(champions["PTB"].mean() - mvps["PTB"].mean(),2))
+    with cols[2]:
+        st.metric("PTS promedio de los campeones", champions["PTS"].mean())
+        st.metric("PTS promedio de los MVPs", mvps["PTS"].mean())
+        st.metric("Diferencia de PTS promedio", round(champions["PTS"].mean() - mvps["PTS"].mean(), 2))
+
+
+
 # Título principal
 st.title("Datos sobre los campeones de FMS")
 st.write("En esta sección, analizaremos los datos de los campeones de FMS a lo largo de los años.")
@@ -78,7 +124,15 @@ st.markdown("""
          los PTS miden los puntos obtenidos a traves de las victorias en su temporada. Mientras el punto este mas a la derecha
          implicara que el MC obtuvo mas puntos en su temporada, mientras que si esta mas arriba implica que el MC obtuvo mas PTB en su temporada.
          """)
+
+
 st.markdown(" #### Que podemos observar?")
 st.write("""
-         En el grafico anterior podemos observar
+         Como es esperado, los campeones suelen tener un mejor desempeño que los demás MCs en términos de PTB. Sin embargo,
+            no siempre son los que más puntos obtienen. Por ejemplo, en la temporada 2020, el campeón de España, Bnet, tuvo muchos
+            menos puntos que Gazir, ojo, esto no significa que Bnet no haya sido el mejor MC de esa temporada, ya que el PTB si bien
+            es una metrica descriptiva de la calidad de las batallas, suele no ser suficiente reflejo de los highlights de la temporada.
+
          """)
+
+proportion_champion_mvp()
