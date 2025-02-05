@@ -95,6 +95,8 @@ def load_data(data:str = "FMS")->pd.DataFrame:
         fms_scaled = fms.groupby('year', group_keys=False).apply(scale_group, method="standard")
 
         return fms_scaled
+    elif data == "Matches":
+        return dict_matrixes()
 
 
 # Función para crear gráficos de barras
@@ -130,7 +132,7 @@ def configure_page():
 
 
 def dict_matrixes():
-    path = "../data/matrixes"
+    path = "data/matrixes"
     files = os.listdir(path)
 
     def extraer_pais_numero(nombre_archivo):
